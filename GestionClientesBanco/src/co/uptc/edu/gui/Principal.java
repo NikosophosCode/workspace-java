@@ -106,10 +106,10 @@ public class Principal {
         System.out.println("Nombre del programa Asociado: Tecnologia en Programacion de Sistemas Informaticos");
         System.out.println("Tipo Cuenta: Cuenta de " + cuenta.tipoCuenta);
         System.out.println("No. Cuenta: " + cuenta.numeroCuenta);
-        System.out.println("Valor a consignar: " + cuenta.valorConsignar);
-        System.out.println("Valor a retirar: " + cuenta.valorRetirar);
-        System.out.println("Intereses generados: " + cuenta.interesesGenerados);
-        System.out.println("Saldo: " + cuenta.saldoActual);
+        System.out.println("Valor a consignar: " + String.format("%.2f", cuenta.valorConsignar));
+        System.out.println("Valor a retirar: " + String.format("%.2f", cuenta.valorRetirar));
+        System.out.println("Intereses generados: " + String.format("%.2f", cuenta.interesesGenerados));
+        System.out.println("Saldo: " + String.format("%.2f", cuenta.saldoActual));
         System.out.println("==================================================");
 
         sc.close();
