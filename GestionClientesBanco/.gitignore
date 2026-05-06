@@ -77,3 +77,5 @@ docs/
 
 # User-specific files
 *.properties.user
+
+*.pdf
